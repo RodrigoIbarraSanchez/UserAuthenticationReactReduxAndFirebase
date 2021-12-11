@@ -64,7 +64,7 @@ export const RegisterScreen = () => {
 
   return (
     <>
-      <h3 className="auth__title">Register</h3>
+      <h3 className="auth__title">Sign in</h3>
       <form onSubmit={handleRegister}>
         {msgError && <div className="auth__alert-error">{msgError}</div>}
 
@@ -104,7 +104,7 @@ export const RegisterScreen = () => {
           onChange={handleInputChange}
         />
         <button type="submit" className="btn btn-primary btn-block mb-5">
-          Register
+          Sign in
         </button>
 
         <Link to="/auth/login" className="link">
